@@ -34,5 +34,3 @@ Study day... yay!
 
 ### October 16th, 2018
 All parts are in and the aquisition can be presented. Also got the chance to solder the pins on once of my accelerometers together so that breadboarding the pi and the sensor together can be done easier.
-
-[ur mom](partridgegetslucky.com)
