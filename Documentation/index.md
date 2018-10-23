@@ -33,4 +33,7 @@ All parts have been ordered and the proofs of purchase are available to view
 Study day... yay!
 
 ### October 16th, 2018
-All parts are in and the aquisition can be presented. Also got the chance to solder the pins on once of my accelerometers together so that breadboarding the pi and the sensor together can be done easier.
+All parts are in and the aquisition can be presented. Also got the chance to solder the pins on once of my accelerometers together so that breadboarding the pi and the sensor together can be done easier. Soldered on with no problem.
+
+### October 23rd, 2018
+Additional parts were ordered for the project, being the male / female connectors that connect the GPIO pins to the breadboard. Now that all parts are fully in, the breadboarding can be completed. A rough design has been made in fritzing for the board design. Reffering to that rough design, a subdirectory in fritzing holds the fritzing files for the breadboard. The PCB board and wiring diagram will be designed before the start of next class. [Click here to access the fritzing file]()
