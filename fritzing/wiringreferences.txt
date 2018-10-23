@@ -1,0 +1,7 @@
+References to wiring the Accelerometer to the Pi's GPIO
+
+Pi GPIO Reference:
+https://www.raspberrypi.org/documentation/usage/gpio/
+
+I2C Wiring Reference:
+https://www.anstack.com/blog/2016/07/05/accelerometer-intro.html
