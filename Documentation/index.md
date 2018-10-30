@@ -37,5 +37,13 @@ All parts are in and the aquisition can be presented. Also got the chance to sol
 
 ### October 23rd, 2018
 Additional parts were ordered for the project, being the male / female connectors that connect the GPIO pins to the breadboard. Now that all parts are fully in, the breadboarding can be completed. A rough design has been made in fritzing for the board design. Reffering to that rough design, a subdirectory in fritzing holds the fritzing files for the breadboard. The PCB board and wiring diagram will be designed before the start of next class. [Click here to access the fritzing file](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
+Below is the breadboard schematic for the connected sensor designed via Fritzing:
+![Image of breadboard schematic](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_bb.jpg)
 The Pi was also activated to detect the I2C address of the accelerometer. Below is the proof that the Pi detected the address of 0x53 for the ADXL345 accelerometer.
 ![Image Of I2C Address Proof on Pi](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/image1.JPG)
+
+### October 30th, 2018
+The PCB was fully designed and is ready to be manufactured. The Gerber files were created and sent to the prototype lab to be made for soldering for next week. The gerber files have been uploaded to github for future reference. Also the PCB schematic was uploaded to github as well. [Click here to see the Gerber Files](https://github.com/BlueDaroosh/handheldSpedometer/tree/master/GerberFiles)
+Below is the image of the PCB design of the circuit board:
+![Image of designed PCB](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_pcb.jpg)
+The fritzing file has been updated with the new PCB design.
