@@ -1,0 +1,32 @@
+*Pick And Place List
+*Company= CENG 317 - 0NA
+*Author= Dariusz Kulpinski - N01164025
+*eMail= dariuszkulpinski@yahoo.com
+*
+*Project=handheldspedo
+*Date=12:02:21
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;27.8427;-26.609;-90;Bottom;
+2;;;18.7461;-30.6712;-90;Top;TXT7
+3;;;49.3653;-7.08269;0;Bottom;TXT5
+4;;;38.6781;-35.0914;0;Top;TXT10
+5;;;39.2727;-45.659;0;Bottom;Via1
+6;;;31.6527;-53.279;0;Bottom;Via4
+7;;;47.4367;-27.4009;0;Top;TXT2
+8;;;44.1332;-19.8639;0;Top;TXT9
+9;;;30.6121;-4.89349;0;Top;TXT6
+10;;;49.5577;-29.8998;0;Top;TXT1
+11;;;26.5727;-45.659;0;Bottom;Via5
+12;;;49.9481;-25.1148;0;Top;TXT3
+13;;;38.5334;-32.52;0;Top;TXT11
+14;;;39.0689;-17.4661;0;Top;TXT8
+15;;;44.3527;-35.499;0;Bottom;Via2
+16;;;52.5642;-49.6422;0;Top;TXT4
+17;;;-14.8181;-16.617;90;Bottom;
