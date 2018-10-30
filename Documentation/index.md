@@ -36,9 +36,10 @@ Study day... yay!
 All parts are in and the aquisition can be presented. Also got the chance to solder the pins on once of my accelerometers together so that breadboarding the pi and the sensor together can be done easier. Soldered on with no problem.
 
 ### October 23rd, 2018
-Additional parts were ordered for the project, being the male / female connectors that connect the GPIO pins to the breadboard. Now that all parts are fully in, the breadboarding can be completed. A rough design has been made in fritzing for the board design. Reffering to that rough design, a subdirectory in fritzing holds the fritzing files for the breadboard. The PCB board and wiring diagram will be designed before the start of next class. [Click here to access the fritzing file](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
+Additional parts were ordered for the project, being the male / female connectors that connect the GPIO pins to the breadboard. Now that all parts are fully in, the breadboarding can be completed. A rough design has been made in fritzing for the board design. Reffering to that rough design, a subdirectory in fritzing holds the fritzing files for the breadboard. The PCB board and wiring diagram will be designed before the start of next class. [Click here to access the fritzing file. ](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
 Below is the breadboard schematic for the connected sensor designed via Fritzing:
 ![Image of breadboard schematic](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_bb.jpg)
+References to the wiring was added to the fritzing directory for referencing purposes. [Click here to see references.txt. ](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/wiringreferences.txt)
 The Pi was also activated to detect the I2C address of the accelerometer. Below is the proof that the Pi detected the address of 0x53 for the ADXL345 accelerometer.
 ![Image Of I2C Address Proof on Pi](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/image1.JPG)
 
