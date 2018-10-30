@@ -1,4 +1,5 @@
-# handheldSpedometer
-For the Hardware production technology course, this repository is for all things related to the project.
+# Handheld Speedometer Project
+Dariusz Kulpinski - CENG 317-0NA
 
-Starting readme file for the project. Whats left to come is the code and all the info for the project
+Welcome to the handhelp Spedometer Repository
+[You can click here to visit the Timelog and Progress Reports](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/index.md)
