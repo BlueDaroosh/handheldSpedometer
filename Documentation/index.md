@@ -48,3 +48,12 @@ The PCB was fully designed and is ready to be manufactured. The Gerber files wer
 Below is the image of the PCB design of the circuit board:
 ![Image of designed PCB](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_pcb.jpg)
 The fritzing file has been updated with the new PCB design.
+
+### November 6th, 2018
+The PCB has been made by the prototype lab and retrieved for soldering. The soldering was complete, soldering all the pins including vias, sensor and pi board together. Below are the images of the final results of the soldering that was completed, and the PCB board itself below:
+![PCB_Front](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/PCB_Front.JPG)
+![PCB_Back](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/PCB_Back.JPG)
+The Wiring Schematic was also updated and designed, and is now available on GitHub. Below is the Image of the Wiring Schematic designed in Fritzing:
+![Schematic](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_schem.jpg)
+The Fritzing file has been updated on GitHub. [Click here to access the fritzing file. ](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
+On Thursday of this week, the programming of the sensor and obtaining these values will be performed and done. Stay tuned for a Blog Entry on Thursday November 8th.
