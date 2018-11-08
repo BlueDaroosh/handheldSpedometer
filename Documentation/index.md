@@ -57,3 +57,10 @@ The Wiring Schematic was also updated and designed, and is now available on GitH
 ![Schematic](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_schem.jpg)
 The Fritzing file has been updated on GitHub. [Click here to access the fritzing file. ](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
 On Thursday of this week, the programming of the sensor and obtaining these values will be performed and done. Stay tuned for a Blog Entry on Thursday November 8th.
+
+### November 11th, 2018 (Not a Regular Tuesday Class)
+Today was taken to focus on being able to implement the code that would get the sensor to output data and values to the pi. The first thing i did was inspect if the newly soldered board registers the address of the accelerometer. Sure enough, the i2c address was registered and i confirmed that the soldering was successful.
+![Image Of The Soldered I2C Address](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9533.JPG)
+After this was verified, i started to work on getting the Remote Desktop Connection working between my laptop and my Pi. After some tedious work and troubleshooting, i was successful and i am able to remote desktop connect to the pi with my laptop.
+![Image Of A Successful Connection](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9534.JPG)
+It was noted down the the pi is connectable through the IP: { 169.254.245.48 } I must use this address to connect to the pi. The programming of the sensor will not take place today, as i am not feeling well at all. I may try to do it tomorrow, otherwise the latest i can do it is on Sunday, if my health gets better or if i feel that i should do it asap.
