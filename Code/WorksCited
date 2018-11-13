@@ -1,0 +1,11 @@
+The Python Code Base was referenced and obtained from the following cite:
+
+Dcube Tech Ventures. (N.D.) 3-AXIS ACCELEROMETER, ADXL345 WITH RASPBERRY PI USING PYTHON. 
+Obtained From: https://www.instructables.com/id/3-Axis-Accelerometer-ADXL345-With-Raspberry-Pi-Usi/
+
+The pin and wirings were researched from the following cite:
+
+AviV1. (N.D.) HOW TO USE THE ADXL345 ON RASPBERRY PI.
+Obtained From: https://www.instructables.com/id/how-to-use-the-ADXL345-on-Raspberry-pi/
+
+The Code In The .py file was modified to include a forever loop, a 1 second delay and a print statement to split new readings.
