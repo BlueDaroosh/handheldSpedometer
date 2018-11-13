@@ -70,5 +70,5 @@ This is my first day back recovering from my cold. I was not able to get the cod
 [Click here to see the ADXL345.py file](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/ADXL345.py)
 Below is the output results that the sensor gave out during runtime of the script:
 ![OutputSample.jpg](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/OutputCapture.JPG)
-With this sensor proven to be working, the power up milestone is achieved and confirms that the sensor operates as intended. Below is the Works Cited for the projects source code and pin diagram:
-![Works Cited](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/WorksCited)
+With this sensor proven to be working, the power up milestone is achieved and confirms that the sensor operates as intended. Below is the link to the Works Cited for the projects source code and pin diagram:
+[Click here to see Works Cited](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/WorksCited)
