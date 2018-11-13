@@ -75,4 +75,10 @@ With this sensor proven to be working, the power up milestone is achieved and co
 
 ### But wait, there's more for November 13th! (It was done in class and out of class.)
 
-
+The enclosure for the entire set here was in plan to be made as soon as the programming for the sensor was complete. Firstly went to the prototype lab to retrieve a copy of a base case template for the enclosure. Also uploaded this to the professors dropbox so that other students are able to refer to this document itself. Within CorelDraw, the case was modified so that it fits the entire length and width of the pi and the sensor together. All modifications, changes and the CorelDraw file itself is uploaded into the project repository.
+[Click here to access the .cdr file](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/ADXL345Case.cdr)
+Once the file is complete, it was brought over to the prototype lab to be cut out and manufactured. Once the laser cutting was complete, the entire thing was assembled together, and below is the final result:
+![Enclosure Top View](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureTop.JPG)
+![Enclosure Angle View](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureAngle.JPG)
+![Enclosure Back View](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureBack.JPG)
+At this point, this completes the major assembly and build up milestones that are required in the project! Next week will determine the next step for what is required towards the end of the course.
