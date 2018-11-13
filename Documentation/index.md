@@ -58,9 +58,17 @@ The Wiring Schematic was also updated and designed, and is now available on GitH
 The Fritzing file has been updated on GitHub. [Click here to access the fritzing file. ](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
 On Thursday of this week, the programming of the sensor and obtaining these values will be performed and done. Stay tuned for a Blog Entry on Thursday November 8th.
 
-### November 11th, 2018 (Not a Regular Tuesday Class)
+### November 7th, 2018 (Not a Regular Tuesday Class)
 Today was taken to focus on being able to implement the code that would get the sensor to output data and values to the pi. The first thing i did was inspect if the newly soldered board registers the address of the accelerometer. Sure enough, the i2c address was registered and i confirmed that the soldering was successful.
 ![Image Of The Soldered I2C Address](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9533.JPG)
 After this was verified, i started to work on getting the Remote Desktop Connection working between my laptop and my Pi. After some tedious work and troubleshooting, i was successful and i am able to remote desktop connect to the pi with my laptop.
 ![Image Of A Successful Connection](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9534.JPG)
 It was noted down the the pi is connectable through the IP: { 169.254.245.48 } I must use this address to connect to the pi. The programming of the sensor will not take place today, as i am not feeling well at all. I may try to do it tomorrow, otherwise the latest i can do it is on Sunday, if my health gets better or if i feel that i should do it asap.
+
+# November 13th, 2018
+This is my first day back recovering from my cold. I was not able to get the code in working order during my absense so i took the time now to do it. I was looking at a link that is witin the Works Cited text file in the code directory that allowed me to get the sensor to read data using the python programming language. Below is the link to the script source code that operated the sensor.
+[Click here to see the ADXL345.py file](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/ADXL345.py)
+Below is the output results that the sensor gave out during runtime of the script:
+![OutputSample.jpg](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/OutputCapture.JPG)
+With this sensor proven to be working, the power up milestone is achieved and confirms that the sensor operates as intended. Below is the Works Cited for the projects source code and pin diagram:
+![Works Cited](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/WorksCited)
