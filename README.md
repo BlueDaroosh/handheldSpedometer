@@ -8,3 +8,7 @@ Welcome to the handhelp Spedometer Repository.
 [You can click here to see the Final PowerPoint Presenation](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/Hardware%20Presentation%20-%20Dariusz.pptx)
 
 ### BUILD INSTRUCTIONS COMING SOON
+
+When will the build instructions become available?
+
+# When i feel like it.
