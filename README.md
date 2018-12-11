@@ -48,12 +48,12 @@ In this case, my budget example landed around $210 Canadian for this project. De
 To start off, we need to make sure that we know how to connect our device and how its going to work in the end. With that being said, we should breadboard our design first so that we know how to design our PCB in the end.
 
 Four connections are required to connect our accelerometer to the raspberry pi. First we need to supply 3.3V, connect the ground, and connect our I2C data bus and clock bus. We also need to ensure that the connecting pins of the accelerometer are soldered onto the device so that there is a solid connection between the breadboard pins and the sensor. Once that is done, we can wire our breadboard. Below is how the breadboarding should look like:
-![Breadboard image](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_bb.jpg)
+![Breadboard image](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/fritzing/handheldspedo_bb.jpg)
 <br />[You can see more information about wiring the breadboard here.](https://www.anstack.com/blog/2016/07/05/accelerometer-intro.html
 )
 #### Pin locations may vary depending on the manufacturer of the sensor itself.
 Basically in the end, your wiring must match the schematic as follows:
-![Wiring Schematic](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_schem.jpg)
+![Wiring Schematic](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/fritzing/handheldspedo_schem.jpg)
 Once this breadboarding is complete, You have the option to jump towards the Third Phase of the build, which powers on the system, or continue on to the Second Phase to design the circuit board for actual system itself.
 
 ## Phase 2: Building a Circuit Board
@@ -63,7 +63,7 @@ With our breadboard schematic done, we can now design a circuit board that will 
 <br />Once fritzing is installed, build a breadboard design very similar to the design above. Once designed, a schematic of your board and a PCB template will automatically be generated. All you have to do is simply complete the connections.
 <br />For the PCB, make sure that each of the connections are designed to fit the devices, and ensure that they can be soldered on depending on which side the contacts are.
 <br />Below is a sample of how the PCB should look like in the end:
-![PCB Design](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo_pcb.jpg)
+![PCB Design](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/fritzing/handheldspedo_pcb.jpg)
 <br />[Click here to learn more on how to design a PCB in Fritzing](http://fritzing.org/learning/tutorials/designing-pcb/)
 <br />Ensure that the connection to the Pi Header can be soldered on the TOP of the board, and make sure that soldering on the sensor can be done on the BOTTOM of the board. Remember, Yellow lines indicate the TOP, while orange lines indicate the BOTTOM. To connect the bottom and the top together, use VIA'S to link them together. You also have access to the original fritzing file if you want to modify that for yourself. [You can click here to download the fritzing file.](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/fritzing/handheldspedo.fzz)
 <br />If you are satisfied with the board design, export the PCB as an Extended Gerber File for manufacturing. If you have access to a PCB builder, you can use that. Otherwise, you need to send these Gerber files to a service that Prints out circuit boards, which may add to your budget.
@@ -72,7 +72,7 @@ Once you obtain your circuit board, you can proceed to soldering on the pins. Pl
 [If you need help on soldering, a tutorial can be found here.](https://www.build-electronic-circuits.com/how-to-solder/)
 <br />To solder the board, ensure that the sensors pins are soldered on the BOTTOM of the board. Ensure that the PI connectors are soldered on the TOP of the board. To Solder the Vias, take some jumper wire, strip it of its protection and stick it throuhg the via. Solder the jumper on both ends, and cut off the excess. That solders on the via and you linked top to bottom.
 <br /> This is an example of how the soldering should be completed:
-![Soldering Example](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/PCBSoldering.png)
+![Soldering Example](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Documentation/PCBSoldering.png)
 Once the board is fully soldered, it's time to move to Phase 3.
 
 ## Phase 3: Powering the Accelerometer
@@ -87,7 +87,7 @@ The next step is the i2c tools. To install this, open the terminal and type in:
 <br /> Input your credentials and allow the installation to complete. Once that's done, we check if our sensors i2c address is found on the GPIo. Run the following command in the terminal:
 #### sudo i2cdetect -y 1
 <br /> Running this, you should get the following result:
-![GPIo I2C pickup](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9533.JPG)
+![GPIo I2C pickup](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Documentation/IMG_9533.JPG)
 <br />If you see the address of 0x53, you are all set. Otherwise you need to go back and see what mistakes you have done.
 
 Let's understand how the code is supposed to work in the end. First of all, when working with I2C, we need to program the system to ensure that it will register and read I2C devices that are connected to the I2C bus. Next thing is how this data should be processed. It depends on how you want to display and store the information. Let's say for example we want to take data from a sensor, store it in a database, and have a mobile device read from that database to display the current values for the accelerometer. Below is some PSEUDO CODE that would demonstrate what we would like to do:
@@ -97,7 +97,7 @@ Let's understand how the code is supposed to work in the end. First of all, when
 The next part is programming the device itself to take inputs from the sensor. This is written under python, but should be simple to implement. Run Thonny on the pi. Once thonny runs, save a .py file anywhere. Below is a link to the source code.
 <br />[Click here to access the source code.](https://github.com/DcubeTechVentures/ADXL345/blob/master/Python/ADXL345.py)
 <br />Once you format everything properly, and make sure the syntax is correct, you can run the script. By running the script, you should get the following results:
-![Output Results](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Code/OutputCapture.JPG)
+![Output Results](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Code/OutputCapture.JPG)
 <br /> Feel free to look at the script, and modify it however you please. You may modify it to print out actual speed values, print out estimates, make it loop, give it an interface, etc. From this point whatever you do with the source code is at your discresion.
 <br />The last part to the project is building a case that fits your circuit and pi.
 
@@ -107,8 +107,8 @@ Do do the enclosure is totally up to you, but it is highly reccomended so that y
 [This is a link to the example closure, which can be modified to your circuit design.](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/ADXL345Case.cdr)
 NOTE: This is a coreldraw file, therefore you require coreldraw to edit this file.
 <br />Once you design your enclosure for the circuit, you can take the file and use a locally available CO2 laser etcher or other tool that corresponds to your design. Otherwise you may also require to use a service which will build the enclosure for you, but at an added cost for the budget. Once you get your enclosure parts, build the entire thing together, and that is your final result. Below are images of an example of the final result:
-![Enclosure Top](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureTop.JPG)
-![Enclosure Back](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureBack.JPG)
+![Enclosure Top](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Enclosure/EnclosureTop.JPG)
+![Enclosure Back](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Enclosure/EnclosureBack.JPG)
 This marks the end of the project. Your circuit board and enclosure are now yours to modify and cherish.
 
 ## Final Comments
