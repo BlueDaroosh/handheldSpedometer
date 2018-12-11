@@ -93,8 +93,8 @@ The next step is the i2c tools. To install this, open the terminal and type in:
 <br />If you see the address of 0x53, you are all set. Otherwise you need to go back and see what mistakes you have done.
 
 Let's understand how the code is supposed to work in the end. First of all, when working with I2C, we need to program the system to ensure that it will register and read I2C devices that are connected to the I2C bus. Next thing is how this data should be processed. It depends on how you want to display and store the information. Let's say for example we want to take data from a sensor, store it in a database, and have a mobile device read from that database to display the current values for the accelerometer. Below is some PSEUDO CODE that would demonstrate what we would like to do:
-![Write From Server](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/WriteFromServer.txt)
-![Read From Client](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/ReadToClient.txt)
+`<https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/WriteFromServer.txt>`
+`<https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/ReadToClient.txt>`
 
 The next part is programming the device itself to take inputs from the sensor. This is written under python, but should be simple to implement. Run Thonny on the pi. Once thonny runs, save a .py file anywhere. Below is a link to the source code.
 <br />[Click here to access the source code.](https://github.com/DcubeTechVentures/ADXL345/blob/master/Python/ADXL345.py)
