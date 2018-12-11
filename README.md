@@ -12,7 +12,7 @@ Welcome to the handhelp Spedometer Repository. The Build Instructions are below.
 
 These are the build instructions on how to make the handheld spedometer. Some items may be more complex to complete, as they need special equipement to complete (ex. PCB builders, CO2 Laser Cutter / Etcher, etc.)
 
-To start off, we should determine what this should look like in the end. More suitably for this project, what should our output look like? Well, fist of all it must output values of speed measurement. Such that it measures your speeds in all x-y-z axis'. Basically the end result we are looking for here is simply values that we can play around with. With that said, lets begin.
+To start off, we should determine what this should look like in the end. More suitably for this project, what should our output look like? Well, fist of all it must output values of speed measurement. Such that it measures your speeds in all x-y-z axis'. Basically the end result we are looking for here is simply values that we can play around with. In terms of build time for this project, it's a good idea to prepare everything before hand, such as part ordering and source downloads of items and code, pre-manufacturing items and whatsoever. If you are ready to commence the build, you can find a weekend to assemble the entire thing together. It shouldn't take you longer whatsoever. With that said, lets begin.
 
 ## What do we need to start off with?
 
@@ -20,7 +20,7 @@ Several components are required in order to make this project work. Such that th
 
 - Safety Glasses (Eye protection and other protection you prefer)
 - Raspberry Pi 3 B+ Model (Must be I2C ready.)
-- SD Card with Raspbian OS
+- SD Card with Raspbian OS (Available Online or install image on own SD card.)
 - ADXL345 3 Axis Accelerometer (This is the primary component for measuring speeds. Must be I2C ready.)
 - Breadboarding Platform (Any Size Works
 - USB mouse, USB Keyboard, HDMI cable and HDMI monitor to use the Pi With.
@@ -91,6 +91,10 @@ The next step is the i2c tools. To install this, open the terminal and type in:
 <br /> Running this, you should get the following result:
 ![GPIo I2C pickup](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/IMG_9533.JPG)
 <br />If you see the address of 0x53, you are all set. Otherwise you need to go back and see what mistakes you have done.
+
+Let's understand how the code is supposed to work in the end. First of all, when working with I2C, we need to program the system to ensure that it will register and read I2C devices that are connected to the I2C bus. Next thing is how this data should be processed. It depends on how you want to display and store the information. Let's say for example we want to take data from a sensor, store it in a database, and have a mobile device read from that database to display the current values for the accelerometer. Below is some PSEUDO CODE that would demonstrate what we would like to do:
+![Write From Server](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/WriteFromServer.txt)
+![Read From Client](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/PseudoCodeAssignment/ReadToClient.txt)
 
 The next part is programming the device itself to take inputs from the sensor. This is written under python, but should be simple to implement. Run Thonny on the pi. Once thonny runs, save a .py file anywhere. Below is a link to the source code.
 <br />[Click here to access the source code.](https://github.com/DcubeTechVentures/ADXL345/blob/master/Python/ADXL345.py)
