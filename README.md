@@ -1,6 +1,6 @@
 # Handheld Speedometer Project
 ## Dariusz Kulpinski - CENG 317-0NA
-![EnclosureImage](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureAngle.JPG)
+![EnclosureImage](https://raw.githubusercontent.com/BlueDaroosh/handheldSpedometer/master/Enclosure/EnclosureAngle.JPG)
 
 Welcome to the handheld Spedometer Repository. The Build Instructions are below and [here is a presentation of the project.](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/Hardware%20Presentation%20-%20Dariusz.pptx)
  
