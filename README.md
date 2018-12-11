@@ -2,12 +2,10 @@
 ## Dariusz Kulpinski - CENG 317-0NA
 ![EnclosureImage](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Enclosure/EnclosureAngle.JPG)
 
-Welcome to the handhelp Spedometer Repository. The Build Instructions are below.
+Welcome to the handheld Spedometer Repository. The Build Instructions are below and [here is a presentation of the project.](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/Hardware%20Presentation%20-%20Dariusz.pptx)
  
-[You can click here to visit the Timelog and Progress Reports](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/index.md)
+If you would like to see my development of the project, [The Timelog and Progress Reports](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/index.md) are accessible here.
  
-[You can click here to see the Final PowerPoint Presenation](https://github.com/BlueDaroosh/handheldSpedometer/blob/master/Documentation/Hardware%20Presentation%20-%20Dariusz.pptx)
-
 # BUILD INSTRUCTIONS / How To Make a Handheld Spedometer
 
 These are the build instructions on how to make the handheld spedometer. Some items may be more complex to complete, as they need special equipement to complete (ex. PCB builders, CO2 Laser Cutter / Etcher, etc.)
@@ -115,7 +113,7 @@ This marks the end of the project. Your circuit board and enclosure are now your
 
 ## Final Comments
 
-If you were looking through the instructions before hand and ended up here, good for you. Projects like these are not very easy to complete without much experience of hardware manufacturing. In terms of my own experience building this system, i could say that it could be better in terms of the software and the enclosure part. Building this project myself gave me a timeframe, but not a lot of time to complete this ideally. Also my access to some components during this project were limited as the times i was around to build this didn't really accomadate my plans. It may take several attempts to do this project ideally, but otherwise you may have all the time in the world to complete this yourself. From the end of this build, you are free to take this item and modify it however you may like so that it can be better than what it normally is. From that point, i have nothing else to say. If you liked this build, please feel free to share it with others. If you did not like it at all, that means i should learn from my mistakes, but hey, this was also my first attempt at ever building with hardware. Other than that, thats it. Thank you for your support on the Handheld Speedometer.
+If you were looking through the instructions before hand and ended up here, good for you. Projects like these are not very easy to complete without much experience of hardware manufacturing. In terms of my own experience building this system, i could say that it could be better in terms of the software and the enclosure part. Building this project myself gave me a timeframe, but not a lot of time to complete this ideally. Also my access to some components during this project were limited as the times i was around to build this didn't really accomadate my plans. It may take several attempts to do this project ideally, but otherwise you may have all the time in the world to complete this yourself. From the end of this build, you are free to take this item and modify it however you may like so that it can be better than what it normally is. From that point, i have nothing else to say. If you liked this build, please feel free to share it with others. If you did not like it at all, that means i should learn from my mistakes, but hey, this was also my first attempt at ever building with hardware. Finally, if we think about reproducing or "mass producing" this product in large amounts, the thing that should change is the size of the enclosure. It's a little large to start with, having a lot of empty space. The board should be  Other than that, thats it. Thank you for your support on the Handheld Speedometer.
 
 #### Credits and Works Cited. Without these, the project would have not been possible:
 Dcube Tech Ventures. (N.D.) 3-AXIS ACCELEROMETER, ADXL345 WITH RASPBERRY PI USING PYTHON. 
