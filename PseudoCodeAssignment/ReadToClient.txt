@@ -1,0 +1,16 @@
+Include libraries to run code
+Make variables for username, password, usernameinput and passwordinput
+Create main function with argument of void and returns void
+Make a printf statement asking for username
+Put username variable in else if statement
+Scanf for username and see if it’s correct, if not try again
+In the else block, if username does not equal to usernameinput, try again
+In the if block, if the username does equal to usernameinput, go forth to password
+Ask for password once username is correct
+Make printf statement asking for password
+Put password into else if statement
+In the else block, if password does not equal to passwordinput, try again
+In the block, if password equals to passwordinput, go forth to print statement and display message
+Put password variable into else if statement aswell
+scanf for password and see if it’s correct, if not try again
+Once password and username match, display a printf statement saying “successful” 
